@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdelrahman Emad Fawzy Kassab - Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header */
+        header {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .contact-info {
+            font-size: 0.95em;
+            color: #ecf0f1;
+        }
+
+        .contact-info a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        /* Navigation */
+        nav {
+            background: #34495e;
+            padding: 15px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #3498db;
+        }
+
+        /* Sections */
+        section {
+            background: white;
+            margin: 20px 0;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+
+        /* About Me */
+        .about-content {
+            font-size: 1.1em;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        .highlight {
+            color: #2980b9;
+            font-weight: bold;
+        }
+
+        /* Projects */
+        .project {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .project:last-child {
+            border-bottom: none;
+        }
+
+        .project h3 {
+            color: #2980b9;
+            font-size: 1.4em;
+            margin-bottom: 8px;
+        }
+
+        .tech {
+            background: #ecf0f1;
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            color: #2c3e50;
+            margin-bottom: 12px;
+            font-weight: bold;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* Contact Section */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .contact-card {
+            background: #ecf0f1;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .contact-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .contact-card h3 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+
+        .contact-card p {
+            color: #7f8c8d;
+            margin-bottom: 10px;
+        }
+
+        .contact-card a {
+            color: #2980b9;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact-card a:hover {
+            text-decoration: underline;
+        }
+
+        .icon {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        /* Footer */ 
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+            
+            .contact-info {
+                font-size: 0.85em;
+            }
+            
+            section {
+                padding: 20px;
+            }
+            
+            nav a {
+                margin: 0 10px;
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>ABDELRAHMAN EMAD FAWZY KASSAB</h1>
+            <div class="contact-info">
+                📍 El Rehab, Cairo, Egypt | 
+                📞 01129856763 | 
+                ✉️ <a href="mailto:Abdelrahmanemad988@gmail.com">Abdelrahmanemad988@gmail.com</a> | 
+                🔗 <a href="https://linkedin.com/in/abdelrahman-emad-44863935b" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+
+        <!-- About Me Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p>Hello! I'm <span class="highlight">Abdelrahman Emad Fawzy Kassab</span>, a passionate Computer Engineering student at Ain Shams University with a strong interest in <span class="highlight">Cybersecurity</span> and <span class="highlight">Software Development</span>.</p>
+                <br>
+                <p>I specialize in building secure applications with a focus on authentication systems, database security, and low-level programming. My experience spans desktop applications, web development, and system-level programming.</p>
+                <br>
+                <p>I'm constantly learning and expanding my knowledge in security principles, cryptographic hashing, and secure system design. I enjoy solving complex problems and building applications that prioritize both functionality and security.</p>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <div class="project">
+                <h3>Secure Desktop Bank Management System</h3>
+                <div class="tech">Technologies: Python, PyQt5, MySQL, Cryptographic Hashing (MD5)</div>
+                <ul>
+                    <li>Developed a full-featured desktop banking application with role-based access control for customers, employees, and managers.</li>
+                    <li>Implemented password hashing using MD5 as part of the authentication mechanism.</li>
+                    <li>Designed and normalized a relational database for fund transfers, deposits, withdrawals, and transaction history.</li>
+                    <li>Worked with authentication, authorization, database security, and user-access management concepts.</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <h3>Secure Cinema Booking Web Application</h3>
+                <div class="tech">Technologies: HTML5, CSS3, JavaScript, SQL Database, Cryptographic Hashing (SHA/MD5)</div>
+                <ul>
+                    <li>Developed a web application for cinema reservations, movie scheduling, and user ticket bookings.</li>
+                    <li>Implemented a backend authentication mechanism using SHA/MD5 hashing.</li>
+                    <li>Added front-end validation and database queries for processing booking transactions.</li>
+                    <li>Worked with web authentication, input validation, and database-driven application logic.</li>
+                </ul>
+            </div>
+
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p style="margin-bottom: 20px; font-size: 1.1em;">Feel free to reach out to me through any of these channels:</p>
+            
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="icon">📧</div>
+                    <h3>Email</h3>
+                    <p>Send me an email anytime</p>
+                    <a href="mailto:Abdelrahmanemad988@gmail.com">Abdelrahmanemad988@gmail.com</a>
+                </div>
+
+                <div class="contact-card">
+                    <div class="icon">📱</div>
+                    <h3>Phone</h3>
+                    <p>Call or WhatsApp</p>
+                    <a href="tel:+201129856763">01129856763</a>
+                </div>
+
+                <div class="contact-card">
+                    <div class="icon">🔗</div>
+                    <h3>LinkedIn</h3>
+                    <p>Connect professionally</p>
+                    <a href="https://linkedin.com/in/abdelrahman-emad-44863935b" target="_blank">linkedin.com/in/abdelrahman-emad</a>
+                </div>
+
+                <div class="contact-card">
+                    <div class="icon">📍</div>
+                    <h3>Location</h3>
+                    <p>Based in</p>
+                    <span style="color: #2980b9; font-weight: bold;">El Rehab, Cairo, Egypt</span>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Abdelrahman Emad Fawzy Kassab. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
